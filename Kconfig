@@ -1,0 +1,63 @@
+#
+# Copyright (c) [2020] Huawei Technologies Co.,Ltd.All rights reserved.
+#
+# LiteOS NOVA is licensed under the Mulan PSL v1.
+# You can use this software according to the terms and conditions of the Mulan PSL v1.
+# You may obtain a copy of Mulan PSL v1 at:
+#
+#   http://license.coscl.org.cn/MulanPSL
+#
+# THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR
+# FIT FOR A PARTICULAR PURPOSE.
+# See the Mulan PSL v1 for more details.
+#
+
+menu "STM32L431_BearPi Project configuration"
+
+comment "This is a demo project and hope you enjoy it"
+
+choice Demo
+    optional
+    prompt "User Defined Demo"
+    config Demo_None
+        bool "none"
+    config A1_BASIC_LED
+        bool "A1_basic_led"
+    config A2_BASIC_KEY
+        bool "A2_basic_key"
+    config A3_BASIC_KEY_IRQ
+        bool "A3_basic_key_irq"
+    config A4_BASIC_UART
+        bool "A4_basic_uart"
+    config A5_BASIC_DAC
+        bool "A5_basic_dac"
+    config A6_BASIC_ADC_DMA
+        bool "A6_basic_adc_dma"
+    config A7_BASIC_TIM2
+        bool "A7_basic_tim2"
+    config A8_BASIC_SPI_LCD
+        bool "A8_basic_spi_lcd"
+    config A9_BASIC_FLASH
+        bool "A9_basic_flash"
+    config A10_BASIC_QSPI_W25Q64
+        bool "A10_basic_qspi_w25q64"
+    config A11_BASIC_SDIO_SDMMC1
+        bool "A11_basic_sdio_sdmmc1"
+    config A12_BASIC_SDIO_SDMMC1_FATFS
+        bool "A12_basic_sdio_sdmmc1_fatfs"
+    config B1_E53_SC1_PLS
+        bool "B1_e53_sc1_pls"
+    config B2_E53_IA1_TEMP_HUMI_PLS
+        bool "B2_e53_ia1_temp_humi_pls"
+    config B3_E53_SF1_SMOKE
+        bool "B3_e53_sf1_smoke"
+    config B4_E53_SC2_AXIS
+        bool "B4_e53_sc2_axis"
+    config B5_E53_ST1_GPS
+        bool "B5_e53_st1_gps"
+    config B6_E53_IS1_INFRARED
+        bool "B6_e53_is1_infrared"
+endchoice
+        
+endmenu
