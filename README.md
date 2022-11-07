@@ -47,7 +47,7 @@ BearPi-HM Nano提供多个案例，方便初学者由浅入深逐步学习。您
 | A6   | 基础   | basic_adc_dma           |    [ADC读取电压](/applications/A6_basic_adc_dma)|
 | A7   | 基础   | basic_tim2        |   [定时器控制LED闪烁](/applications/A7_basic_tim2)|
 | A8   | 基础   | basic_spi_lcd           |  [SPI屏幕测试](/applications/A8_basic_spi_lcd)|
-| A9   | 基础   | basic_flash          |   [内部flash读写测试)](/applications/A9_basic_flash)|
+| A9   | 基础   | basic_flash          |   [内部flash读写测试](/applications/A9_basic_flash)|
 | A10   | 基础   | basic_qspi_w25q64          |   [外部W25Q64 flash读写测试](/applications/A10_basic_qspi_w25q64)|
 | A11   | 基础   | basic_sdio_sdmmc1       |   [外部SD卡读写测试](/applications/A11_basic_sdio_sdmmc1)|
 | A12   | 基础   | basic_sdio_sdmmc1_fatfs       |  [外部SD卡文件系统读写测试](/applications/A12_basic_sdio_sdmmc1_fatfs)|
