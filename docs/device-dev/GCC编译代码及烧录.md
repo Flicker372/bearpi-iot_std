@@ -30,10 +30,7 @@
 ## 烧录代码
 
 1. 将开发板通过USB线与电脑连接
-2. 修改OpenOCD路径，将Makefile中的DEVELOPTOOLS_ROOT修改为对应的developTools安装路径。
-    ![修改openocd路径](figures/修改openocd路径_2.png)
-
-3. 在编译目录下输入
+2. 在编译目录下输入
 
 ```
 make download

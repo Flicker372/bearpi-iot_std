@@ -244,11 +244,10 @@ clean:
 #######################################
 # download
 #######################################
-DEVELOPTOOLS_ROOT = C:/BearPi/developTools
 OPENOCD_INTERFACE = stlink-v2-1.cfg
 OPENOCD_TARGET = stm32l4x.cfg
 OPENOCD_FLASH_START = 0x08000000
 download:
-	openocd -f $(DEVELOPTOOLS_ROOT)/openocd/scripts/interface/$(OPENOCD_INTERFACE) -f $(DEVELOPTOOLS_ROOT)/openocd/scripts/target/$(OPENOCD_TARGET) -c init -c targets -c "reset halt" -c "flash write_image erase ./$(BUILD_DIR)/$(TARGET).bin 0x08000000" -c "verify_image ./$(BUILD_DIR)/$(TARGET).bin 0x08000000 bin" -c "reset run" -c shutdown
+	openocd -f $(CURDIR)/tools/openocd/$(OPENOCD_INTERFACE) -f $(CURDIR)/tools/openocd/$(OPENOCD_TARGET) -c init -c targets -c "reset halt" -c "flash write_image erase ./$(BUILD_DIR)/$(TARGET).bin 0x08000000" -c "verify_image ./$(BUILD_DIR)/$(TARGET).bin 0x08000000 bin" -c "reset run" -c shutdown
 
 # *** EOF ***
