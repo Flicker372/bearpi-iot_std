@@ -5,7 +5,7 @@
 | No | 类别 | 路径  |
 | :----: | ---- |  ------------------------------------------------------------ |
 | 1    | 开发板硬件资料 | [docs/hardware](/docs/hardware) |
-| 2    | 常见问题 | [ISSUES](https://gitee.com/bearpi/bearpi-iot_std/issues) |
+| 2    | 技术支持提问 | [ISSUES](https://gitee.com/bearpi/bearpi-iot_std/issues) |
 
 
 
