@@ -21,4 +21,4 @@
 ```
 请在此处粘贴串口日志 
 ```
-[如何查看开发板串口日志](../docs/device-dev/faqs/如何查看开发板工作日志.md)
+[如何查看开发板串口日志](https://gitee.com/bearpi/bearpi-iot_std/blob/master/docs/device-dev/faqs/%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E5%BC%80%E5%8F%91%E6%9D%BF%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97.md)
