@@ -26,7 +26,7 @@ BearPi-IoT Std开发板是由南京小熊派智能科技有限公司联合华为
 - [2. 开发环境搭建](docs/device-dev/开发环境搭建.md)
 - [3. 源码获取](docs/device-dev/源码获取.md)
 - [4. 如何编译及烧录程序](docs/device-dev/编译代码及烧录.md)
-
+- [5. 常见问题](docs/device-dev/常见问题.md)
 
 
 ## 三、 单片机基础开发索引
