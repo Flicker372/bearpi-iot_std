@@ -1,17 +1,21 @@
 
 ---
 # BearPi-IoT Std
-### 资料导航
+### 快速导航
 | No | 类别 | 路径  |
 | :----: | ---- |  ------------------------------------------------------------ |
 | 1    | 开发板硬件资料 | [docs/hardware](/docs/hardware) |
 | 2    | 技术支持提问 | [ISSUES](https://gitee.com/bearpi/bearpi-iot_std/issues) |
+| 3    | 常见问题解答 | [doc/device-dev/常见问题.md](docs/device-dev/常见问题.md) |
 
 
 
 ## 一、BearPi-IoT  开发板介绍
 
-BearPi-IoT Std开发板是由南京小熊派智能科技有限公司联合华为技术有限公司基于STM32L431RCT6设计的高性能物联网开发板。开发板充分考虑物联网感知层设备的多样性，具有强大的可扩展性，用于提供给开发者评估及快速设计相关物联网的应用产品。
+BearPi-IoT Std开发板是由南京小熊派智能科技有限公司基于STM32L431RCT6设计的高性能物联网开发板。开发板充分考虑物联网感知层设备的多样性，具有强大的可扩展性，用于提供给开发者评估及快速设计相关物联网的应用产品。
+
+开发板已适配支持：[LiteOS](https://gitee.com/bearpi/bearpi-iot_std_liteos)、[TencentOS Tiny](https://gitee.com/bearpi/bearpi-iot_std_tencentos-tiny)、[RT-Thread](https://gitee.com/bearpi/bearpi-iot_std_rt-thread)等实时操作系统，可快速实现物联网端到端案例开发。
+
 
 ### 购买地址 [点击购买](https://item.taobao.com/item.htm?id=608002911209)
 
