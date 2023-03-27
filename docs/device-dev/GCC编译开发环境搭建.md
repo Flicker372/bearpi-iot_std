@@ -17,7 +17,7 @@
 链接：https://pan.baidu.com/s/1CzsM1oaaPIbh4DbCPIcC6A?pwd=1234 
 提取码：1234
 
- 将一键安装包解压到任意目录，运行 developTools.exe，按提示安装，并记住安装路径。
+ 将一键安装包解压到任意目录，运行 developTools.exe，按提示安装（安装路径一定不能有中文、空格、特色字符等），并记住安装路径。
 
 2、安装代码编辑工具Visual Studio Code（代码编辑工具）
 
