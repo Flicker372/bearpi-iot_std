@@ -1,0 +1,28 @@
+
+#
+# STM32L431_BearPi Project configuration
+#
+
+#
+# This is a demo project and hope you enjoy it
+#
+# CONFIG_Demo_None is not set
+CONFIG_A1_BASIC_LED=y
+# CONFIG_A2_BASIC_KEY is not set
+# CONFIG_A3_BASIC_KEY_IRQ is not set
+# CONFIG_A4_BASIC_UART is not set
+# CONFIG_A5_BASIC_DAC is not set
+# CONFIG_A6_BASIC_ADC_DMA is not set
+# CONFIG_A7_BASIC_TIM2 is not set
+# CONFIG_A8_BASIC_SPI_LCD is not set
+# CONFIG_A9_BASIC_FLASH is not set
+# CONFIG_A10_BASIC_QSPI_W25Q64 is not set
+# CONFIG_A11_BASIC_SDIO_SDMMC1 is not set
+# CONFIG_A12_BASIC_SDIO_SDMMC1_FATFS is not set
+# CONFIG_B1_E53_SC1_PLS is not set
+# CONFIG_B2_E53_IA1_TEMP_HUMI_PLS is not set
+# CONFIG_B3_E53_SF1_SMOKE is not set
+# CONFIG_B4_E53_SC2_AXIS is not set
+# CONFIG_B5_E53_ST1_GPS is not set
+# CONFIG_B6_E53_IS1_INFRARED is not set
+# end of STM32L431_BearPi Project configuration
